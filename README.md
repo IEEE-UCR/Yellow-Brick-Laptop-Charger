@@ -23,8 +23,23 @@ version of kicad that Brandon is running.
 So, the XML file actually has all of the materials in it.
 Most of the components are 0805 sized, except for the 1μF capacitors which are
 (and don't quote me on this) 1206 sized.
+
+Here is a digikey link for enough parts to prototype three of these boards.
+http://www.digikey.com/short/749jqc
+
+PCB
+---
+There is a dirty PCBs order that I placed a while ago.
+Here is the "share" link.
+http://dirtypcbs.com/view.php?share=3671&accesskey=5777a9bc83818730d204d944b94a743a
+
+You should be able to order the protopack pretty easily through this link.
+
+Important Notes
+---------------
 There are some specific packages that are not included in the KiCAD libraries,
 but all of those should be included within this package.
+
 Note that this.pretty contains component footprints associated to this build.
 Note that the schematic symbols associated with this build aren't very neatly
 organized in a separate folder.
