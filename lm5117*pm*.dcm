@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LM5117*PM*
+D Wide Input Range Synchronous Buck Controller with Analog Current Monitor
+K Current Monitor
+F lm5117.pdf
+$ENDCMP
+#
+#End Doc Library
