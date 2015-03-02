@@ -3,6 +3,8 @@ Yellow-Brick-Laptop-Charger
 
 Because why not charge your laptop from a giant, scary yellow brick lipo?
 
+Made with KiCAD nightly.
+
 Design Specifics
 ----------------
 The most important things (the soft start and such are all set to the Ti
@@ -35,6 +37,7 @@ Here is the "share" link.
 http://dirtypcbs.com/view.php?share=4775&accesskey=4ce9e3b627f7e16a034119993f725ab9
 
 You should be able to order the protopack pretty easily through this link.
+Beware that these may not be the most current PCBs.
 
 Important Notes
 ---------------
