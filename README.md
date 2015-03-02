@@ -25,13 +25,14 @@ Most of the components are 0805 sized, except for the 1μF capacitors which are
 (and don't quote me on this) 1206 sized.
 
 Here is a digikey link for enough parts to prototype three of these boards.
-http://www.digikey.com/short/749jqc
+http://www.digikey.com/short/749jqc  These include the test points.  Feel
+free to modify things as fit.
 
 PCB
 ---
 There is a dirty PCBs order that I placed a while ago.
 Here is the "share" link.
-http://dirtypcbs.com/view.php?share=3671&accesskey=5777a9bc83818730d204d944b94a743a
+http://dirtypcbs.com/view.php?share=4775&accesskey=4ce9e3b627f7e16a034119993f725ab9
 
 You should be able to order the protopack pretty easily through this link.
 
