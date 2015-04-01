@@ -26,9 +26,11 @@ So, the XML file actually has all of the materials in it.
 Most of the components are 0805 sized, except for the 1μF capacitors which are
 (and don't quote me on this) 1206 sized.
 
-Here is a digikey link for enough parts to prototype three of these boards.
+Here is a Digi-key link for enough parts to prototype three of these boards.
 http://www.digikey.com/short/749jqc  These include the test points.  Feel
-free to modify things as fit.
+free to modify things as fit.  Do note that these BOMs do not contain the
+LEDs for indicating that the board is powered.  (Or at least I don't think
+they do...)
 
 PCB
 ---
