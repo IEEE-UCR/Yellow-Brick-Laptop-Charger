@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:Brick-Laptop-Charger-rescue
 LIBS:+19v
 LIBS:power
 LIBS:device
@@ -11,7 +12,6 @@ LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
-LIBS:special
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -38,8 +38,8 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "Yellow Brick Laptop Charger Schematic"
-Date "Tue 10 Feb 2015"
-Rev "C"
+Date "2015-08-12"
+Rev "D"
 Comp "IEEE UCR, UCR UAS"
 Comment1 "By: Brandon (blu006@ucr.edu)"
 Comment2 "justFlyingSuperComputerThings.tumblr.com"
@@ -69,7 +69,7 @@ F 3 "" H 3900 750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C15
+L C-RESCUE-Brick-Laptop-Charger C15
 U 1 1 54992FF6
 P 7950 3650
 F 0 "C15" H 7950 3750 40  0000 L CNN
@@ -80,7 +80,7 @@ F 3 "" H 7950 3650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C16
+L C-RESCUE-Brick-Laptop-Charger C16
 U 1 1 54993133
 P 8200 3650
 F 0 "C16" H 8200 3750 40  0000 L CNN
@@ -91,7 +91,7 @@ F 3 "" H 8200 3650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP1 C17
+L CP1-RESCUE-Brick-Laptop-Charger C17
 U 1 1 54993168
 P 8450 3650
 F 0 "C17" H 8500 3750 50  0000 L CNN
@@ -146,7 +146,7 @@ F 3 "" H 5150 2850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C12
+L C-RESCUE-Brick-Laptop-Charger C12
 U 1 1 54993759
 P 5700 2850
 F 0 "C12" H 5700 2950 40  0000 L CNN
@@ -157,7 +157,7 @@ F 3 "" H 5700 2850 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C C10
+L C-RESCUE-Brick-Laptop-Charger C10
 U 1 1 54993858
 P 5000 4450
 F 0 "C10" H 5000 4550 40  0000 L CNN
@@ -168,7 +168,7 @@ F 3 "" H 5000 4450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R8
+L R-RESCUE-Brick-Laptop-Charger R8
 U 1 1 54993C5B
 P 6700 4500
 F 0 "R8" V 6780 4500 40  0000 C CNN
@@ -179,7 +179,7 @@ F 3 "" H 6700 4500 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R7
+L R-RESCUE-Brick-Laptop-Charger R7
 U 1 1 54993FF3
 P 6200 4150
 F 0 "R7" V 6280 4150 40  0000 C CNN
@@ -190,7 +190,7 @@ F 3 "" H 6200 4150 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C5
+L C-RESCUE-Brick-Laptop-Charger C5
 U 1 1 54995580
 P 2550 2650
 F 0 "C5" H 2550 2750 40  0000 L CNN
@@ -201,7 +201,7 @@ F 3 "" H 2550 2650 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R6
+L R-RESCUE-Brick-Laptop-Charger R6
 U 1 1 549959D5
 P 3100 2650
 F 0 "R6" V 3180 2650 40  0000 C CNN
@@ -212,7 +212,7 @@ F 3 "" H 3100 2650 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R3
+L R-RESCUE-Brick-Laptop-Charger R3
 U 1 1 54996578
 P 1650 4350
 F 0 "R3" V 1730 4350 40  0000 C CNN
@@ -234,7 +234,7 @@ F 3 "" H 3450 4050 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R1
+L R-RESCUE-Brick-Laptop-Charger R1
 U 1 1 5499683E
 P 1650 1700
 F 0 "R1" V 1730 1700 40  0000 C CNN
@@ -245,7 +245,7 @@ F 3 "" H 1650 1700 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R2
+L R-RESCUE-Brick-Laptop-Charger R2
 U 1 1 549969E4
 P 1650 2400
 F 0 "R2" V 1730 2400 40  0000 C CNN
@@ -256,7 +256,7 @@ F 3 "" H 1650 2400 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R4
+L R-RESCUE-Brick-Laptop-Charger R4
 U 1 1 54996D8E
 P 2000 1700
 F 0 "R4" V 2080 1700 40  0000 C CNN
@@ -267,7 +267,7 @@ F 3 "" H 2000 1700 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C2
+L C-RESCUE-Brick-Laptop-Charger C2
 U 1 1 54996DF9
 P 2000 2350
 F 0 "C2" H 2000 2450 40  0000 L CNN
@@ -278,7 +278,7 @@ F 3 "" H 2000 2350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C1
+L C-RESCUE-Brick-Laptop-Charger C1
 U 1 1 54997D5E
 P 1450 2400
 F 0 "C1" H 1450 2500 40  0000 L CNN
@@ -289,7 +289,7 @@ F 3 "" H 1450 2400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C3
+L C-RESCUE-Brick-Laptop-Charger C3
 U 1 1 54998944
 P 2050 4350
 F 0 "C3" H 2050 4450 40  0000 L CNN
@@ -304,7 +304,7 @@ MOSFET Snubber
 Text Notes 6400 5000 1    60   ~ 0
 Current Sense Resistor
 $Comp
-L C C4
+L C-RESCUE-Brick-Laptop-Charger C4
 U 1 1 54999F5C
 P 3000 4350
 F 0 "C4" H 3000 4450 40  0000 L CNN
@@ -315,7 +315,7 @@ F 3 "" H 3000 4350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R9
+L R-RESCUE-Brick-Laptop-Charger R9
 U 1 1 5499B371
 P 7650 3700
 F 0 "R9" V 7730 3700 40  0000 C CNN
@@ -326,7 +326,7 @@ F 3 "" H 7650 3700 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R10
+L R-RESCUE-Brick-Laptop-Charger R10
 U 1 1 5499B44E
 P 7650 4300
 F 0 "R10" V 7730 4300 40  0000 C CNN
@@ -355,7 +355,7 @@ Bootstrap Diode
 Text Notes 7600 4700 1    60   ~ 0
 Output Voltage Divider
 $Comp
-L C C7
+L C-RESCUE-Brick-Laptop-Charger C7
 U 1 1 5499CDE4
 P 2600 5450
 F 0 "C7" H 2600 5550 40  0000 L CNN
@@ -366,7 +366,7 @@ F 3 "" H 2600 5450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C6
+L C-RESCUE-Brick-Laptop-Charger C6
 U 1 1 5499CE97
 P 2400 5200
 F 0 "C6" H 2400 5300 40  0000 L CNN
@@ -377,7 +377,7 @@ F 3 "" H 2400 5200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R5
+L R-RESCUE-Brick-Laptop-Charger R5
 U 1 1 5499CEEA
 P 2400 5750
 F 0 "R5" V 2480 5750 40  0000 C CNN
@@ -392,7 +392,7 @@ Feedback Compensation Network
 Text Notes 5200 4900 1    60   ~ 0
 VCC Capacitor
 $Comp
-L C C8
+L C-RESCUE-Brick-Laptop-Charger C8
 U 1 1 549A0DE6
 P 5450 1700
 F 0 "C8" H 5450 1800 40  0000 L CNN
@@ -403,7 +403,7 @@ F 3 "" H 5450 1700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C9
+L C-RESCUE-Brick-Laptop-Charger C9
 U 1 1 549A0DEC
 P 5700 1700
 F 0 "C9" H 5700 1800 40  0000 L CNN
@@ -414,7 +414,7 @@ F 3 "" H 5700 1700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP1 C11
+L CP1-RESCUE-Brick-Laptop-Charger C11
 U 1 1 549A0DF2
 P 5950 1700
 F 0 "C11" H 6000 1800 50  0000 L CNN
@@ -746,7 +746,6 @@ Connection ~ 5450 1400
 Connection ~ 5700 1400
 Wire Wire Line
 	1000 1400 6550 1400
-Connection ~ 6700 4200
 Wire Wire Line
 	2400 6000 2400 6100
 Connection ~ 2600 6100
@@ -920,7 +919,7 @@ Connection ~ 4000 1400
 Wire Wire Line
 	4000 2000 4000 1900
 $Comp
-L ZENER D5
+L ZENER-RESCUE-Brick-Laptop-Charger D5
 U 1 1 549C5A81
 P 7450 2300
 F 0 "D5" H 7450 2400 50  0000 C CNN
@@ -1264,7 +1263,7 @@ $EndComp
 Wire Wire Line
 	700  7350 700  7400
 $Comp
-L R R11
+L R-RESCUE-Brick-Laptop-Charger R11
 U 1 1 54D43E7E
 P 5900 4450
 F 0 "R11" V 5980 4450 50  0000 C CNN
@@ -1275,7 +1274,7 @@ F 3 "" H 5900 4450 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R12
+L R-RESCUE-Brick-Laptop-Charger R12
 U 1 1 54D46259
 P 5900 3850
 F 0 "R12" V 5980 3850 50  0000 C CNN
@@ -1288,7 +1287,7 @@ $EndComp
 Wire Wire Line
 	6150 3850 6200 3850
 $Comp
-L R R13
+L R-RESCUE-Brick-Laptop-Charger R13
 U 1 1 54D47065
 P 7750 2800
 F 0 "R13" V 7830 2800 50  0000 C CNN
@@ -1303,7 +1302,7 @@ Wire Wire Line
 Wire Wire Line
 	7750 2300 7750 2550
 $Comp
-L C C18
+L C-RESCUE-Brick-Laptop-Charger C18
 U 1 1 54D47CFC
 P 5550 4100
 F 0 "C18" H 5600 4200 50  0000 L CNN
@@ -1318,7 +1317,7 @@ Wire Wire Line
 Wire Wire Line
 	5550 3850 5650 3850
 $Comp
-L C C13
+L C-RESCUE-Brick-Laptop-Charger C13
 U 1 1 54993BF7
 P 6700 3950
 F 0 "C13" H 6700 4050 40  0000 L CNN
@@ -1333,96 +1332,55 @@ LED Power Monitoring
 $Comp
 L +19V #PWR037
 U 1 1 54D81731
-P 3550 7000
-F 0 "#PWR037" H 3550 6850 60  0001 C CNN
-F 1 "+19V" H 3550 7140 60  0000 C CNN
-F 2 "" H 3550 7000 60  0000 C CNN
-F 3 "" H 3550 7000 60  0000 C CNN
-	1    3550 7000
+P 3000 7000
+F 0 "#PWR037" H 3000 6850 60  0001 C CNN
+F 1 "+19V" H 3000 7140 60  0000 C CNN
+F 2 "" H 3000 7000 60  0000 C CNN
+F 3 "" H 3000 7000 60  0000 C CNN
+	1    3000 7000
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R14
-U 1 1 54D81895
-P 2450 7300
-F 0 "R14" V 2530 7300 50  0000 C CNN
-F 1 "5.1k" V 2457 7301 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 2380 7300 30  0001 C CNN
-F 3 "" H 2450 7300 30  0000 C CNN
-	1    2450 7300
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R15
+L R-RESCUE-Brick-Laptop-Charger R15
 U 1 1 54D818CE
-P 3550 7300
-F 0 "R15" V 3630 7300 50  0000 C CNN
-F 1 "2k" V 3557 7301 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 3480 7300 30  0001 C CNN
-F 3 "" H 3550 7300 30  0000 C CNN
-	1    3550 7300
+P 3000 7300
+F 0 "R15" V 3080 7300 50  0000 C CNN
+F 1 "2k" V 3007 7301 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 2930 7300 30  0001 C CNN
+F 3 "" H 3000 7300 30  0000 C CNN
+	1    3000 7300
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D2
-U 1 1 54D81CD3
-P 2850 7300
-F 0 "D2" H 2850 7400 50  0000 C CNN
-F 1 "IN_Y" H 2850 7200 50  0000 C CNN
-F 2 "LEDs:LED-0805" H 2850 7300 60  0001 C CNN
-F 3 "" H 2850 7300 60  0000 C CNN
-	1    2850 7300
-	1    0    0    -1  
-$EndComp
-$Comp
-L GNDPWR #PWR038
-U 1 1 54D81E87
-P 3050 7550
-F 0 "#PWR038" H 3050 7350 40  0001 C CNN
-F 1 "GNDPWR" H 3050 7420 40  0000 C CNN
-F 2 "" H 3050 7500 60  0000 C CNN
-F 3 "" H 3050 7500 60  0000 C CNN
-	1    3050 7550
-	1    0    0    -1  
-$EndComp
-$Comp
-L LED D6
+L LED-RESCUE-Brick-Laptop-Charger D6
 U 1 1 54D8215B
-P 3950 7300
-F 0 "D6" H 3950 7400 50  0000 C CNN
-F 1 "OUT_B" H 3950 7200 50  0000 C CNN
-F 2 "LEDs:LED-0805" H 3950 7300 60  0001 C CNN
-F 3 "" H 3950 7300 60  0000 C CNN
-	1    3950 7300
+P 3400 7300
+F 0 "D6" H 3400 7400 50  0000 C CNN
+F 1 "OUT_B" H 3400 7200 50  0000 C CNN
+F 2 "LEDs:LED-0805" H 3400 7300 60  0001 C CNN
+F 3 "" H 3400 7300 60  0000 C CNN
+	1    3400 7300
 	1    0    0    -1  
 $EndComp
 $Comp
 L GNDPWR #PWR039
 U 1 1 54D82161
-P 4150 7550
-F 0 "#PWR039" H 4150 7350 40  0001 C CNN
-F 1 "GNDPWR" H 4150 7420 40  0000 C CNN
-F 2 "" H 4150 7500 60  0000 C CNN
-F 3 "" H 4150 7500 60  0000 C CNN
-	1    4150 7550
+P 3600 7550
+F 0 "#PWR039" H 3600 7350 40  0001 C CNN
+F 1 "GNDPWR" H 3600 7420 40  0000 C CNN
+F 2 "" H 3600 7500 60  0000 C CNN
+F 3 "" H 3600 7500 60  0000 C CNN
+	1    3600 7550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2450 7550 2650 7550
+	3000 7550 3200 7550
 Wire Wire Line
-	2650 7550 2650 7300
+	3200 7550 3200 7300
 Wire Wire Line
-	3050 7300 3050 7550
+	3600 7300 3600 7550
 Wire Wire Line
-	3550 7550 3750 7550
-Wire Wire Line
-	3750 7550 3750 7300
-Wire Wire Line
-	4150 7300 4150 7550
-Wire Wire Line
-	2450 6850 2450 7050
-Wire Wire Line
-	3550 7050 3550 7000
+	3000 7050 3000 7000
 Wire Notes Line
 	2300 6650 4300 6650
 Wire Notes Line
@@ -1432,8 +1390,6 @@ Wire Notes Line
 Wire Notes Line
 	2300 7950 2300 6650
 Text Label 2600 1400 0    60   ~ 0
-POWER
-Text Label 2450 7000 0    60   ~ 0
 POWER
 Wire Wire Line
 	4750 3700 5550 3700

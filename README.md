@@ -49,3 +49,5 @@ but all of those should be included within this package.
 Note that this.pretty contains component footprints associated to this build.
 Note that the schematic symbols associated with this build aren't very neatly
 organized in a separate folder.
+
+The inductor specified in the Digikey order is not entirely correct.  The design (later on) was used with a T106-2 core from Micrometals with the appropriate number of turns.  Use an online calculator.
